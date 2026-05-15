@@ -1,0 +1,137 @@
+body{
+    background-color: #000000;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+header{
+    padding: 20px;
+    background-color: #000000;
+}
+.Titulo{
+    display: flex;
+    align-items: center;
+    
+}
+.Titulo .inicio{
+    margin-left: auto;
+}
+.Titulo a{
+    padding: 10px;
+    style: none;
+    color: white;
+    text-decoration: none;
+    
+}
+.Titulo a:hover{
+    color: #ff0000;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("imagenes/Buffet.png");
+    background-size: cover;
+    background-position: center;
+    padding: 300px 20px;
+}
+
+.nose{
+    margin-top: 20px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #faf9f8;
+    
+}
+.imagen
+{   
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    border: 5px solid black;
+
+   
+}
+.variedad{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.variedad h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+.variedad p{
+   display: flex;
+   justify-content: center;
+   color: black;
+}
+
+.seccion2{
+    align-items: center;
+    margin-top: 20px;
+    background-color: #faf9f8;   
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.ubicacion p{
+    color:black;
+}
+.ubicacion h2{
+    color: black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    
+}
+.Tienda{
+   background-color: white;
+   display: flex;
+   
+   
+   
+}
+.Caja1{
+    margin: 20px;
+    background-color: #fdfdfa;
+    width: 300px;
+    min-height: 400px;
+    margin-left: 100px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Caja1 h2{
+    color: black;
+}
+.Caja1 img{
+    margin-top: 20px;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
